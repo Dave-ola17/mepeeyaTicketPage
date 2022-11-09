@@ -1,0 +1,304 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="./bss/bootstrap.min.css">
+    <link rel="stylesheet" href="/ticket.css">
+    <title>ticket</title>
+</head>
+<body>
+    <div class="container">
+        <div class="">
+            <div class="text-center mt-5">
+                <img src="/ticket-image.png" width="100%" height="119px" alt="">
+            </div>
+            <!-- tab section -->
+            <ul class="mt-5 d-flex justify-content-around  nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class=" nav-item" role="presentation">
+                  <button class="btc1 nav-link active" style="background-color: transparent; color: #4338CA;;" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Projects you reported on</button>
+                </li>
+                <li class=" nav-item" role="presentation">
+                  <button class="btc1 nav-link" style="background-color: transparent; color: #BDBDBD;" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" style="padding: 8px; font-weight: 700;">Redress Status</button>
+                </li>                            
+            </ul>
+            <div class="d-flex" style="padding: 20px;">
+                <div class="d-flex">
+                    <h5 class="filter-sec pe-2">Filter</h5>
+                    <img class="mt-md-1" width="17px" height="13px" src="/filterIcon.png" alt="">
+                </div>
+                <div class="ms-5 d-flex">
+                    <h5 class="filter-sec pe-2">Search</h5>
+                    <img src="/search.png" width="17px" height="20px"  alt="">
+                </div>
+            </div>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <!-- table for the Redress Status -->
+                    <table class="table">
+                        <thead style="border-bottom: 2px solid #F2F2F2;">
+                          <tr>                         
+                            <th scope="col">Project Name</th>
+                            <th scope="col">Date of Report</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">Revenue Allocated</th>
+                            <th scope="col">Ticket</th>
+                            <th scope="col">Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <!-- first section -->
+                          <tr>
+                            <th scope="row">
+                                <h5 class="row-style">Construction of dual carriage way and overhead way</h5>
+                            </th>
+                            <td>
+                                <h5 class="row-style">22-12-2020</h5>
+                            </td>
+                            <td>
+                                <h5 class="row-style">From Afikpo-North Central Police Station to Hospital junction</h5>
+                            </td>
+                            <td>
+                                <h5 class="row-style">NGN20,000,000</h5>
+                            </td>
+                            <td>
+                                <button class="row-button" data-bs-toggle="modal" data-bs-target="#exampleModal">Generate Ticket</button>
+                            </td>
+                            <td>
+                                <h5 class="row-style">See details</h5>
+                            </td>
+                          </tr>
+                            <!-- second row -->
+                            <tr>
+                                <th scope="row">
+                                    <h5 class="row-style">Construction of dual carriage way and overhead way</h5>
+                                </th>
+                                <td>
+                                    <h5 class="row-style">22-12-2020</h5>
+                                </td>
+                                <td>
+                                    <h5 class="row-style">From Afikpo-North Central Police Station to Hospital junction</h5>
+                                </td>
+                                <td>
+                                    <h5 class="row-style">NGN20,000,000</h5>
+                                </td>
+                                <td>
+                                    <button class="row-button" data-bs-toggle="modal" data-bs-target="#exampleModal">Generate Ticket</button>
+                                </td>
+                                <td>
+                                    <h5 class="row-style">See details</h5>
+                                </td>
+                            </tr>
+                            <!-- third row -->
+                                <tr>
+                                    <th scope="row">
+                                        <h5 class="row-style">Construction of dual carriage way and overhead way</h5>
+                                    </th>
+                                    <td>
+                                        <h5 class="row-style">22-12-2020</h5>
+                                    </td>
+                                    <td>
+                                        <h5 class="row-style">From Afikpo-North Central Police Station to Hospital junction</h5>
+                                    </td>
+                                    <td>
+                                        <h5 class="row-style">NGN20,000,000</h5>
+                                    </td>
+                                    <td>
+                                        <button class="row-button" data-bs-toggle="modal" data-bs-target="#exampleModal">Generate Ticket</button>
+                                    </td>
+                                    <td>
+                                        <h5 class="row-style">See details</h5>
+                                    </td>
+                                </tr>                          
+                        </tbody>
+                      </table>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <table class="table">
+                        <thead style="border-bottom: 2px solid transparent;">
+                          <tr>
+                            <th scope="col">Ticket Number</th>
+                            <th scope="col">Project</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Comment</th>
+                            <th scope="col">Feedback</th>
+                            <th scope="col">Agency</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <!-- first section -->
+                          <tr>
+                                <th scope="row">
+                                    <button class="Ticket-button">#546188839</button>
+                                </th>
+                                <td>
+                                    <h5 class="row-style">Construction of dual carriage way and overhead bridge along Abakaliki
+                                        City Centre, Abakaliki, Ebonyi State</h5>
+                                </td>
+                                <td>
+                                    <button class="pending-button">Pending</button>
+                                </td>
+                                <!-- for comment -->
+                                <td>
+                                    <h5 class="row-style">Construction of dual carriage way and overhead bridge along Abakaliki
+                                        City Centre, Abakaliki, Ebonyi State</h5>
+                                </td>
+                                <!-- for feedback -->
+                                <td>
+                                    <h5 class="row-style">Construction of dual carriage way and overhead bridge along Abakaliki
+                                        City Centre, Abakaliki, Ebonyi State</h5>
+                                </td>
+                                <td>
+                                    <h5 class="row-style">Ebonyi State 
+                                        Road Maintenance Agency</h5>
+                                </td>
+                          </tr>
+                            <!-- second row -->
+                            <tr>
+                                <th scope="row">
+                                    <button class="Ticket-button">#546188839</button>
+                                </th>
+                                <td>
+                                    <h5 class="row-style">Construction of dual carriage way and overhead bridge along Abakaliki
+                                        City Centre, Abakaliki, Ebonyi State</h5>
+                                </td>
+                                <td>
+                                    <button class="pending-button">Pending</button>
+                                </td>
+                                <!-- for comment -->
+                                <td>
+                                    <h5 class="row-style">Construction of dual carriage way and overhead bridge along Abakaliki
+                                        City Centre, Abakaliki, Ebonyi State</h5>
+                                </td>
+                                <!-- for feedback -->
+                                <td>
+                                    <h5 class="row-style">Construction of dual carriage way and overhead bridge along Abakaliki
+                                        City Centre, Abakaliki, Ebonyi State</h5>
+                                </td>
+                                <td>
+                                    <h5 class="row-style">Ebonyi State 
+                                        Road Maintenance Agency</h5>
+                                </td>
+                          </tr>
+                            <!-- third row -->
+                            <tr>
+                                <th scope="row">
+                                    <button class="Ticket-button">#546188839</button>
+                                </th>
+                                <td>
+                                    <h5 class="row-style">Construction of dual carriage way and overhead bridge along Abakaliki
+                                        City Centre, Abakaliki, Ebonyi State</h5>
+                                </td>
+                                <td>
+                                    <button class="pending-button">Pending</button>
+                                </td>
+                                <!-- for comment -->
+                                <td>
+                                    <h5 class="row-style">Construction of dual carriage way and overhead bridge along Abakaliki
+                                        City Centre, Abakaliki, Ebonyi State</h5>
+                                </td>
+                                <!-- for feedback -->
+                                <td>
+                                    <h5 class="row-style">Construction of dual carriage way and overhead bridge along Abakaliki
+                                        City Centre, Abakaliki, Ebonyi State</h5>
+                                </td>
+                                <td>
+                                    <h5 class="row-style">Ebonyi State 
+                                        Road Maintenance Agency</h5>
+                                </td>
+                          </tr>
+                          <!-- 4th row -->
+                          <tr>
+                                <th scope="row">
+                                    <button class="Ticket-button">#546188839</button>
+                                </th>
+                                <td>
+                                    <h5 class="row-style">Construction of dual carriage way and overhead bridge along Abakaliki
+                                        City Centre, Abakaliki, Ebonyi State</h5>
+                                </td>
+                                <td>
+                                    <button class="pending-button">Pending</button>
+                                </td>
+                                <!-- for comment -->
+                                <td>
+                                    <h5 class="row-style">Construction of dual carriage way and overhead bridge along Abakaliki
+                                        City Centre, Abakaliki, Ebonyi State</h5>
+                                </td>
+                                <!-- for feedback -->
+                                <td>
+                                    <h5 class="row-style">Construction of dual carriage way and overhead bridge along Abakaliki
+                                        City Centre, Abakaliki, Ebonyi State</h5>
+                                </td>
+                                <td>
+                                    <h5 class="row-style">Ebonyi State 
+                                        Road Maintenance Agency</h5>
+                                </td>
+                            </tr>     
+                        </tbody>
+                      </table>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header container mhead" style="border: none;">
+          <h5 class="modal-title" id="exampleModalLabel">
+            <div>
+                <!-- <h3 class="pre">Set Preference</h3>
+                <h6 class="let">Let's help you customize your experience</h6> -->
+            </div>
+          </h5>
+          <button type="button" class="modal-close red" data-bs-dismiss="modal" style="border: none; background:transparent;">Close <span class="black ms-2">X</span></button>
+        </div>
+        <div class="modal-body" style="margin-bottom: 40px;">
+            <div class="con1 ms-4">
+                <div>
+                    <h5 class="modal-generate-txt">Generate Ticket</h5>
+                    <button class="mt-3 Ticket-button">#546188839</button>
+                </div>
+                <div class="mt-4">
+                    <h5 class="modal-text">Construction of dual carriage way and overhead bridge along Abakaliki
+                        City Centre, Abakaliki, Ebonyi State</h5>
+                </div>
+            </div>
+            <div class="ms-4 mt-4">
+                <label class="modal-label mt-2" for="">Executing Agency</label>
+                <div class="mt-3"> 
+                    <select class="select-option" name="" id="">
+                        <option value="">Autofills</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+                <label class="modal-label mt-5" for="">What will you like to query? <span class="red">*</span></label>
+                <div class="mt-3">
+                    <select class="select-option" name="" id="">
+                        <option value="" >~select here</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+                <label class="modal-label mt-5" for="">Type in your complain/Comment</label>
+                <div class="mt-3">
+                    <textarea class="complain-textarea" name="" id="" cols="30" rows="5" placeholder="Discribe your points"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer" style="justify-content: center; border-top: none; padding-bottom: 35px;">
+          <button type="button" class="Generate-modal-button" data-bs-dismiss="modal">Generate Ticket</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    
+    <script src="./bss/bootstrap.bundle.min.js"></script>
+</body>
+</html>

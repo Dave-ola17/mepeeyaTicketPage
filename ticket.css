@@ -1,0 +1,99 @@
+
+
+
+
+.nav-link.active, .nav-pills .show,.nav-link {
+    color: #4338CA;
+    background-color: transparent;
+    border-bottom: 4px solid  #4338CA;
+    font-weight: 700;
+}
+th{
+    /* font-style: normal; */
+    font-weight: 600;
+    font-size: 16px;
+    color: #828282;
+}
+.row-style{
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+    /* line-height: 17px; */
+}
+.row-button{
+    background: linear-gradient(0deg, rgba(49, 46, 129, 0.08), rgba(49, 46, 129, 0.08)), #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    color: #312E81;
+    font-weight: 500;
+}
+.ticket-button{
+    background: linear-gradient(0deg, rgba(99, 102, 241, 0.04), rgba(99, 102, 241, 0.04)), #FFFFFF;
+    border: 1px solid #4F46E5;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #312E81;
+    padding: 10px;
+}
+.pending-button{
+    background: linear-gradient(0deg, rgba(255, 116, 101, 0.12), rgba(255, 116, 101, 0.12)), #FFFFFF;
+    border: 1px solid #FF7465;
+    border-radius: 4px;
+    padding: 4px 12px;
+    color: #FF7465;
+}
+.red{
+    color: red;
+}
+.modal-generate-txt{
+    font-weight: 500;
+    font-size: 32px;
+}
+.modal-close{
+    font-weight: 600;
+}
+.black{
+    color: #000;
+    font-weight:600;
+}
+.filter-sec{
+    font-weight: 500;
+    font-size: 16px;
+    color: #828282;
+}
+.modal-text{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+.modal-label{
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+.generate-modal-button{
+    width: 90%;
+    padding: 17px 216px;
+    background: #4338CA;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+}
+.select-option{
+    width: 90%;
+    background: linear-gradient(0deg, rgba(99, 102, 241, 0.04), rgba(99, 102, 241, 0.04)), #FFFFFF;
+    border-radius: 4px;
+    height: 48px;
+    outline: none;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.2);
+    border: 1px solid darkgrey;
+}
+.complain-textarea{
+    resize: none;
+    width: 90%;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid darkgrey;
+}
